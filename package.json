@@ -1,0 +1,35 @@
+{
+  "name": "react-redux-boilerplate-tools",
+  "version": "1.0.0",
+  "description": "Command line tools used to create react component boilerplate along with simple redux boilerplate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "newComponent": "bin/createNewComponent.js",
+    "newAction": "bin/createNewAction.js",
+    "newApiWrapper": "bin/createNewApiWrapper.js",
+    "newReducer": "bin/createNewReducer.js",
+    "newStore": "bin/createNewStore.js"
+  },
+  "scripts": {
+    "new:component": "newComponent",
+    "new:action": "newAction",
+    "new:apiWrapper": "newApiWrapper",
+    "new:store": "newStore",
+    "new:reducer": "newReducer"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "tools",
+    "boilerplate"
+  ],
+  "author": "Philip Middleton <middleton.philip.pm@gmail.com> (http://github.com/clockworkk)",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "mkdirp": "^0.5.1"
+  }
+}
